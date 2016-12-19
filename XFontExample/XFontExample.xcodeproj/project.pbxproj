@@ -15,6 +15,7 @@
 		2ACE9ED21E06FB890042F659 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ACE9ED01E06FB890042F659 /* LaunchScreen.storyboard */; };
 		2ACE9EDD1E06FB890042F659 /* XFontExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ACE9EDC1E06FB890042F659 /* XFontExampleTests.m */; };
 		2ACE9EE81E06FB890042F659 /* XFontExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ACE9EE71E06FB890042F659 /* XFontExampleUITests.m */; };
+		2ACE9F031E0899970042F659 /* XFontTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ACE9F021E0899970042F659 /* XFontTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		2ACE9EE31E06FB890042F659 /* XFontExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XFontExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ACE9EE71E06FB890042F659 /* XFontExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XFontExampleUITests.m; sourceTree = "<group>"; };
 		2ACE9EE91E06FB890042F659 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2ACE9F011E0899970042F659 /* XFontTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFontTool.h; sourceTree = "<group>"; };
+		2ACE9F021E0899970042F659 /* XFontTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFontTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		2ACE9EC11E06FB890042F659 /* XFontExample */ = {
 			isa = PBXGroup;
 			children = (
+				2ACE9F001E0899880042F659 /* XFontTool */,
 				2ACE9EC51E06FB890042F659 /* AppDelegate.h */,
 				2ACE9EC61E06FB890042F659 /* AppDelegate.m */,
 				2ACE9EC81E06FB890042F659 /* ViewController.h */,
@@ -138,6 +142,15 @@
 				2ACE9EE91E06FB890042F659 /* Info.plist */,
 			);
 			path = XFontExampleUITests;
+			sourceTree = "<group>";
+		};
+		2ACE9F001E0899880042F659 /* XFontTool */ = {
+			isa = PBXGroup;
+			children = (
+				2ACE9F011E0899970042F659 /* XFontTool.h */,
+				2ACE9F021E0899970042F659 /* XFontTool.m */,
+			);
+			path = XFontTool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,6 +292,7 @@
 				2ACE9ECA1E06FB890042F659 /* ViewController.m in Sources */,
 				2ACE9EC71E06FB890042F659 /* AppDelegate.m in Sources */,
 				2ACE9EC41E06FB890042F659 /* main.m in Sources */,
+				2ACE9F031E0899970042F659 /* XFontTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +530,7 @@
 				2ACE9EEE1E06FB890042F659 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2ACE9EEF1E06FB890042F659 /* Build configuration list for PBXNativeTarget "XFontExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +539,7 @@
 				2ACE9EF11E06FB890042F659 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2ACE9EF21E06FB890042F659 /* Build configuration list for PBXNativeTarget "XFontExampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +548,7 @@
 				2ACE9EF41E06FB890042F659 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
