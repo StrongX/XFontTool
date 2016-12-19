@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-#import <CoreText/CoreText.h>
 #import "XFontTool.h"
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *exampleLabel;
@@ -19,7 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSString *fontName = @"HiraginoSansGB-W3";
+    NSString *fontName = XChineseFont_YuppySC_Regular;
     if ([XFontTool isDownloadFont:fontName]) {
         _exampleLabel.font = [UIFont fontWithName:fontName size:40];
         return;
